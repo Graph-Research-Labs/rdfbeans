@@ -13,7 +13,7 @@ import org.cyberborean.rdfbeans.test.foafexample.entities.IThing;
  */
 
 public class Document extends Thing implements IDocument {  
-	
+
 	IThing owner;
 	IPerson author;
 

@@ -68,11 +68,11 @@
 	</distributionManagement>
 
 	<properties>
-		<rdf4j.version>2.5.2</rdf4j.version>
-		<slf4j.version>1.7.9</slf4j.version>
+		<rdf4j.version>4.1.0</rdf4j.version>
+		<slf4j.version>2.0.0</slf4j.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>16</maven.compiler.source>
+		<maven.compiler.target>16</maven.compiler.target>
 		<maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
 	</properties>
 
@@ -133,7 +133,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.7</version>
+			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -197,6 +197,7 @@
 				</executions>
 			</plugin>
 
+<!--
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
@@ -209,6 +210,7 @@
 					</execution>
 				</executions>
 			</plugin>
+-->
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

@@ -19,7 +19,7 @@ import org.cyberborean.rdfbeans.annotations.RDFSubject;
  */
 @RDFBean("http://cyberborean.org/rdfbeans/2.0/test/datatype/DatatypeTestClass")
 public class DatatypeTestClass {
-	
+
 	String stringValue;
 	char charValue;
 	boolean booleanValue;	
